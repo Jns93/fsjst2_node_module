@@ -8,5 +8,5 @@ const bufferInUTF8 = Buffer.from("João", "utf8");
 console.log(bufferInUTF8);
 
 const bufferInLatin1 = Buffer.from("João", "latin1"); //encoding em unicode
-console.log(bufferInLatin1.toString("utf8")); // lendo em uft8 (saira quebrado)
+console.log(bufferInLatin1.toString("utf8")); // lendo em uft8 (saira quebrado  )
 
